@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.css">
+    <title>Document</title>
+</head>
+
+<body class="grid place-items-center h-screen duration-200">
+    <main class="container w-1/3 shadow-xl rounded-xl p-3 bg-gray-200 flex gap-3 flex-col">
+        <h1 class="text-3xl pt-2 pl-2">Quizzy</h1>
+        <p id="question-title" class="text-xl"></p>
+        <ul id="options-container" class="grid grid-cols-2">
+        </ul>
+        <p id="tip"
+            class="text-sm hidden before:w-3 before:h-3 before:rounded-full before:inline-block before:bg-yellow-400 before:ml-1">
+            </p>
+        <button id="next"
+            class="w-100 bg-blue-500 py-2 rounded-md text-white shadow-md hover:shadow-xl duration-300">check</button>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

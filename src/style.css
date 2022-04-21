@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error{
+    background-color: rgba(255, 0, 0, 0.439);
+}
+
+.success{
+    background-color: rgba(0, 255, 0, 0.439);
+}
